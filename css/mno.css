@@ -1,0 +1,345 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+    margin:0px;
+    padding: 0px;
+    text-decoration: none;
+}
+body{
+    /* background-color: aqua; */
+    font-size: 18px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+/* Part 1  Navbar*/
+.navbar{
+    height: 90px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-logo{
+    height: 85px;
+    width: 130px;
+}
+.logo{
+    background-image: url(img/1.png);
+    background-size: cover;
+    height: 80px;
+    width: 120px;
+    padding: 2px;
+}
+img{
+    height: 80px;
+    width: 120px;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}
+.navigation a{
+    color: white;
+    margin: 0.3rem;
+    font-size: 1.2rem;
+}
+.navigation a:hover{
+    border: 2px solid white;
+    color: green;
+    /* border-bottom: 3px solid green; */
+}
+.icons div{
+    color: white;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 1.5rem;
+    margin-left: 3rem;
+    padding-left: 0.5rem ;
+}
+.icons div:hover{
+    color: green;
+}
+.search-form{
+    position: absolute;
+    top: 15%;
+    right: 7%;
+    background-color: white;
+    width: 20rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    transform: scaleY(0);
+    transform-origin: top;
+}
+.search-form input{
+    height: 100%;
+    width: 100%;
+    font-size: 0.8rem;
+    color:black;
+    padding: 1rem;
+    text-transform: none;
+}
+
+.search-form label{
+    cursor: pointer;
+    font-size: 0.9rem;
+    margin-right: 1rem;
+    color: black;
+    position: relative;
+    margin-right: -50px;
+}
+/* .search-form label:hover{
+    color: green;
+} */
+
+/* part 2  */
+.hero-section{
+    background-image: url(img/sl.jpg);
+    background-size: cover;
+    height: 400px;
+    margin-bottom: 200px;
+}
+.img2{
+    height: 600px;
+    width: 1340px;
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+    margin:0px;
+    padding: 0px;
+    text-decoration: none;
+}
+.navbar{
+    height: 90px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-logo{
+    height: 85px;
+    width: 130px;
+}
+.logo{
+    background-image: url(img/1.png);
+    background-size: cover;
+    height: 80px;
+    width: 120px;
+    padding: 2px;
+}
+img{
+    height: 80px;
+    width: 120px;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}
+.navigation a{
+    color: white;
+    margin: 0.3rem;
+    font-size: 1.2rem;
+}
+.navigation a:hover{
+    border: 2px solid white;
+    color: green;
+    /* border-bottom: 3px solid green; */
+}
+.icons div{
+    color: white;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 1.5rem;
+    margin-left: 3rem;
+    padding-left: 0.5rem ;
+}
+.icons div:hover{
+    color: green;
+}
+.search-form{
+    position: absolute;
+    top: 15%;
+    right: 7%;
+    background-color: white;
+    width: 20rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    transform: scaleY(0);
+    transform-origin: top;
+}
+.search-form input{
+    height: 100%;
+    width: 100%;
+    font-size: 0.8rem;
+    color:black;
+    padding: 1rem;
+    text-transform: none;
+}
+
+.search-form label{
+    cursor: pointer;
+    font-size: 0.9rem;
+    margin-right: 1rem;
+    color: black;
+    position: relative;
+    margin-right: -50px;
+}
+/* .search-form label:hover{
+    color: green;
+} */
+
+/* part 2  */
+.hero-section{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.img2{
+    width: 100%;
+}
+.text{
+    position: absolute;
+    color: blue;
+    right: 55%;
+    bottom: 15%;
+    font-size: 30px;
+}
+
+/*  part 3  */
+.heading{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px auto;
+}
+.heading h1{
+    font-size: 50px;
+    color: #000;
+    margin-bottom: 25px;
+    position: relative;
+}
+.heading h1::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    display: block;
+    margin: 0px auto;
+    background-color: green;
+}
+.heading p{
+    font-size: 18px;
+    color: rgb(41, 38, 38);
+    margin-bottom: 35px;
+}
+.container{
+    width: 90%;
+    margin: 0px auto;
+    padding: 20px 30px;
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.about-img{
+    flex:1;
+    margin-right: 40px;
+    overflow: hidden;
+}
+.img3{
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: 0.5s ease;
+}
+.img3:hover{
+    transform: scale(1.2);
+}
+.about-content{
+    flex: 1;
+}
+.about-content h2{
+    font-size: 23px;
+    margin-bottom: 15px;
+    color: red;
+}
+.about-content p{
+    font-size: 18px;
+    list-style: 1;
+    color: rgb(41, 38, 38);
+}
+.btn{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: blueviolet;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 15px;
+    transition: 0.3s ease;
+}
+.btn:hover{
+    background-color: brown;
+}
+/* Footer */
+footer{
+    margin-top: 10px;
+}
+.foot-panel1{
+    background-color: #37475a;
+    color: white;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+.foot-panel2{
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.fp-logo{
+    display: flex;
+    margin: 10px;
+    justify-content: space-evenly;
+    padding: 10px;
+    line-height: 20px;
+    
+}
+ul{
+    margin: 20px;
+}
+ul p{
+    font-weight: bold;
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+.foot-panel3{
+    background-color: #2e445c;
+    color: white;
+    height: 40px;
+    font-size: 0.9rem;
+    text-align: center;
+    padding-top: 15px;
+}
